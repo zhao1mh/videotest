@@ -5,4 +5,11 @@ Author:   Eddie Zhao
 Version : 0.1
 Date:     7/12/2021
 
+Build:
+
+sudo apt-get install libusb-dev
+git clone http://github.com/zhao1mh/videotest.git
+./configure
+make
+
 
