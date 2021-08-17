@@ -50,6 +50,7 @@ static void bulkcallback(struct libusb_transfer *transfer){
 	     }
 	     else
 	     {
+		     framesize=0;
 		     cout<<"frame size incorrect, frame discarded"<<endl;
 	     }
 	}
